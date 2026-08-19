@@ -14,6 +14,8 @@ export const APP_DESCRIPTION =
 export const navLinks: NavLink[] = [
   { label: "Home", href: "/", key: "home" },
   { label: "Dashboard", href: "/dashboard", key: "dashboard", authOnly: true },
+  { label: "Analytics", href: "/analytics", key: "analytics", authOnly: true },
+  { label: "Onboarding", href: "/onboarding", key: "onboarding", authOnly: true },
   { label: "Settings", href: "/settings", key: "settings", authOnly: true },
   { label: "Log In", href: "/login", key: "login", guestOnly: true },
   { label: "Sign Up", href: "/signup", key: "signup", guestOnly: true },
@@ -22,6 +24,8 @@ export const navLinks: NavLink[] = [
 export const footerLinks: NavLink[] = [
   { label: "Home", href: "/", key: "home" },
   { label: "Dashboard", href: "/dashboard", key: "dashboard" },
+  { label: "Analytics", href: "/analytics", key: "analytics" },
+  { label: "Onboarding", href: "/onboarding", key: "onboarding" },
   { label: "Log In", href: "/login", key: "login" },
   { label: "Sign Up", href: "/signup", key: "signup" },
   { label: "Settings", href: "/settings", key: "settings" },

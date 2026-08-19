@@ -92,6 +92,7 @@ export default function Navbar() {
       );
     }
 
+    // Plain route link — no scroll manipulation, no preventDefault
     return (
       <Link
         key={link.key}
@@ -118,14 +119,15 @@ export default function Navbar() {
       transition={{ duration: 0.5, ease: "easeOut" }}
       className={`sticky top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[var(--card)]/90 backdrop-blur-md shadow-[0_2px_12px_0_rgba(91,76,245,0.08)] border-b border-[var(--border)]"
+          ? "bg-white/90 backdrop-blur-md shadow-[0_1px_2px_rgba(0,0,0,0.04),0_8px_24px_-8px_rgba(91,76,245,0.10)] border-b border-[var(--border)]"
           : "bg-transparent"
       }`}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
+          {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-[var(--primary)] shadow-[0_2px_12px_0_rgba(91,76,245,0.3)]">
+            <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-[var(--primary)] shadow-[0_2px_12px_0_rgba(91,76,245,0.3)] group-hover:shadow-[0_4px_20px_0_rgba(91,76,245,0.4)] transition-shadow duration-200">
               <Sparkles className="w-4 h-4 text-white" aria-hidden="true" />
             </span>
             <span className="text-lg font-bold text-[var(--foreground)] tracking-tight">
@@ -133,12 +135,14 @@ export default function Navbar() {
             </span>
           </Link>
 
+          {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-1" aria-label="Main navigation">
             {visibleLinks.map((link) => renderLink(link))}
           </nav>
 
+          {/* Mobile menu button */}
           <button
-            className="md:hidden p-2 rounded-xl text-[var(--muted-foreground)] hover:bg-[var(--border)] transition-colors"
+            className="md:hidden p-2 rounded-xl text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:bg-[var(--border)] transition-all duration-200"
             onClick={() => setMobileOpen((v) => !v)}
             aria-label={mobileOpen ? "Close menu" : "Open menu"}
             aria-expanded={mobileOpen}
@@ -148,16 +152,17 @@ export default function Navbar() {
         </div>
       </div>
 
+      {/* Mobile menu */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.25, ease: "easeOut" }}
-            className="md:hidden overflow-hidden bg-[var(--card)] border-b border-[var(--border)]"
+            transition={{ duration: 0.2, ease: "easeOut" }}
+            className="md:hidden overflow-hidden bg-white/95 backdrop-blur-md border-b border-[var(--border)]"
           >
-            <nav className="px-4 py-3 flex flex-col gap-1" aria-label="Mobile navigation">
+            <nav className="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-1" aria-label="Mobile navigation">
               {visibleLinks.map((link) => renderLink(link, true))}
             </nav>
           </motion.div>
