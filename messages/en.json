@@ -1,0 +1,351 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "login": "Log In",
+    "signup": "Sign Up"
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "product": "Product",
+    "free_forever": "Free forever for core features",
+    "no_credit_card": "No credit card required",
+    "built_with_love": "Built with care for habit builders",
+    "copyright": "© 2024 Streakly. All rights reserved.",
+    "tagline": "Show up. Every day. Build the life you want."
+  },
+  "signup": {
+    "hero": {
+      "heading": "Build habits that actually stick.",
+      "body": "Join thousands of people who use Streakly to show up for themselves every single day. Create your free account and start your first streak in under a minute.",
+      "cta": "Get started free"
+    },
+    "form": {
+      "heading": "Create your account",
+      "body": "No credit card required. Free forever for core features.",
+      "cta": "Create account",
+      "confirmLabel": "Confirm Password",
+      "confirmPlaceholder": "Re-enter your password",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "hidePassword": "Hide",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "John Doe",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Create a strong password",
+      "passwordsMatch": "Passwords don't match",
+      "showPassword": "Show",
+      "submit": "Create Account",
+      "submitting": "Creating account…"
+    },
+    "fields": [
+      {
+        "label": "Full name",
+        "placeholder": "e.g. Alex Rivera",
+        "type": "text"
+      },
+      {
+        "label": "Email address",
+        "placeholder": "you@example.com",
+        "type": "email"
+      },
+      {
+        "label": "Password",
+        "placeholder": "at least 8 characters",
+        "type": "password"
+      },
+      {
+        "label": "Confirm password",
+        "placeholder": "must match above",
+        "type": "password"
+      }
+    ],
+    "login_link": {
+      "body": "Already have an account?",
+      "cta": "Log in to Streakly"
+    },
+    "badge": "Free forever plan",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "errors": {
+      "emailInvalid": "Please enter a valid email address.",
+      "generic": "Something went wrong. Please try again.",
+      "nameRequired": "Name is required.",
+      "passwordMismatch": "Passwords don't match.",
+      "passwordShort": "Password must be at least 8 characters"
+    },
+    "formSubtitle": "Join thousands building better habits",
+    "formTitle": "Get Started",
+    "heading": "Build habits that stick",
+    "loginLink": "Sign in",
+    "loginPrompt": "Already have an account?",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "John Doe",
+    "passwordHint": "Use uppercase, numbers, and 8+ characters",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Create a strong password",
+    "strength": {
+      "fair": "Fair",
+      "length": "8+ characters",
+      "number": "One number",
+      "strong": "Strong",
+      "uppercase": "One uppercase letter",
+      "weak": "Weak"
+    },
+    "subheading": "Track daily habits and watch yourself transform",
+    "submit": "Create Account",
+    "submitting": "Creating account…",
+    "success": {
+      "body": "Welcome! Check your email to verify your account.",
+      "cta": "Go to Dashboard",
+      "title": "Account created"
+    },
+    "terms": {
+      "and": "And",
+      "prefix": "I agree to the",
+      "privacy": "Privacy Policy",
+      "tos": "Terms of Service"
+    }
+  },
+  "login": {
+    "hero": {
+      "heading": "Welcome back. Your streak is waiting.",
+      "body": "Log in to pick up right where you left off. Every day you show up is a day that counts."
+    },
+    "form": {
+      "heading": "Log in to Streakly",
+      "body": "Enter your email and password to access your dashboard.",
+      "cta": "Log In"
+    },
+    "fields": [
+      {
+        "label": "Email address",
+        "placeholder": "the one you signed up with",
+        "type": "email"
+      },
+      {
+        "label": "Password",
+        "placeholder": "at least 8 characters",
+        "type": "password"
+      }
+    ],
+    "signup_link": {
+      "heading": "Don't have an account yet?",
+      "body": "Join thousands of people building better habits one day at a time.",
+      "cta": "Create a free account"
+    },
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "featureGoals": "Set and track goals",
+    "featureInsights": "Get personalized insights",
+    "featureStreak": "Build winning streaks",
+    "forgotPassword": "Forgot password?",
+    "heading": "Welcome back",
+    "hidePassword": "Hide password",
+    "noAccount": "Don't have an account?",
+    "orDivider": "or",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
+    "showPassword": "Show password",
+    "signUpLink": "Sign up",
+    "signingIn": "Signing in…",
+    "subheading": "Log in to continue tracking your habits.",
+    "submitButton": "Sign in"
+  },
+  "dashboard": {
+    "header": {
+      "heading": "Good morning, {name} 👋",
+      "body": "You have habits on your list — let's make it a great day."
+    },
+    "header_items": [
+      {
+        "label": "Wednesday, 14 August 2024"
+      },
+      {
+        "label": "6 habits scheduled for today"
+      },
+      {
+        "label": "3 completed so far — keep going!"
+      }
+    ],
+    "stats": {
+      "heading": "Your progress at a glance",
+      "body": "Here's how you're tracking across all your habits. Stay consistent — streaks compound faster than you think."
+    },
+    "stats_items": [
+      {
+        "label": "Today's completion rate",
+        "detail": "3 of 6 habits done"
+      },
+      {
+        "label": "Current streak",
+        "detail": "days in a row"
+      },
+      {
+        "label": "Longest streak",
+        "detail": "personal best"
+      },
+      {
+        "label": "All-time completion rate",
+        "detail": "across the last 30 days"
+      }
+    ],
+    "checklist": {
+      "heading": "Today's habits",
+      "body": "Check off each habit as you complete it. Your streak updates automatically — don't break the chain."
+    },
+    "habits": [
+      {
+        "icon": "🏃",
+        "name": "Morning run",
+        "description": "20 minutes outside",
+        "completed": true
+      },
+      {
+        "icon": "💧",
+        "name": "Drink 8 glasses of water",
+        "description": "stay hydrated throughout the day",
+        "completed": true
+      },
+      {
+        "icon": "📖",
+        "name": "Read for 30 minutes",
+        "description": "non-fiction or fiction, your choice",
+        "completed": true
+      },
+      {
+        "icon": "🧘",
+        "name": "Meditate",
+        "description": "10-minute mindfulness session",
+        "completed": false
+      },
+      {
+        "icon": "✍️",
+        "name": "Journal",
+        "description": "write 3 things you're grateful for",
+        "completed": false
+      },
+      {
+        "icon": "🥗",
+        "name": "Eat a healthy dinner",
+        "description": "cook at home, skip the takeout",
+        "completed": false
+      }
+    ],
+    "add_habit": {
+      "heading": "Ready to build a new habit?",
+      "body": "Small habits, done consistently, lead to extraordinary results. Add a new habit and start your streak today.",
+      "cta": "Add a new habit"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": {
+      "heading": "Your Profile",
+      "body": "Update your display name and manage your account details.",
+      "name_label": "Display name",
+      "name_placeholder": "Your name",
+      "email_label": "Email address",
+      "save_cta": "Save changes"
+    },
+    "preferences": {
+      "heading": "Preferences",
+      "body": "Customize how Streakly works for you.",
+      "timezone_label": "Timezone",
+      "timezone_help": "Used to determine when your day resets and streaks are calculated."
+    },
+    "danger": {
+      "heading": "Danger Zone",
+      "body": "Permanently delete your account and all your habit data. This action cannot be undone.",
+      "cta": "Delete my account",
+      "confirm_title": "Delete your account?",
+      "confirm_body": "This will permanently delete all your habits, streaks, and history. There is no way to recover this data."
+    }
+  },
+  "habits": {
+    "detail": {
+      "back": "Back to Dashboard",
+      "stats_heading": "Habit Statistics",
+      "current_streak": "Current Streak",
+      "longest_streak": "Longest Streak",
+      "completion_rate": "Completion Rate",
+      "history_heading": "Completion History",
+      "history_body": "Every dot is a day you showed up. Keep filling in the calendar.",
+      "edit_cta": "Edit habit",
+      "delete_cta": "Delete habit",
+      "confirm_delete_title": "Delete this habit?",
+      "confirm_delete_body": "All completion history and streak data for this habit will be permanently removed.",
+      "days_label": "days",
+      "days_best": "personal best"
+    },
+    "form": {
+      "create_heading": "Create a new habit",
+      "edit_heading": "Edit habit",
+      "name_label": "Habit name",
+      "name_placeholder": "e.g. Morning run, Read 30 minutes",
+      "description_label": "Description (optional)",
+      "description_placeholder": "What does this habit involve?",
+      "icon_label": "Icon (emoji)",
+      "icon_placeholder": "🏃",
+      "color_label": "Color",
+      "save_cta": "Save habit",
+      "cancel_cta": "Cancel"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong. Please try again.",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "close": "Close",
+    "back": "Back",
+    "streak_days": "day streak",
+    "completed": "Completed",
+    "not_done": "Not yet done",
+    "sign_out": "Sign out"
+  },
+  "cta": {
+    "badge": "Limited time",
+    "button": "Start free trial",
+    "footnote": "No credit card required. Cancel anytime.",
+    "headline": "Ready to build better habits?",
+    "subheadline": "Join thousands building consistency, one day at a time."
+  },
+  "features": {
+    "eyebrow": "Why HabitTracker",
+    "headline": "Everything you need to succeed",
+    "subheadline": "Powerful tools designed to keep you accountable and motivated."
+  },
+  "hero": {
+    "badge": "New",
+    "cta_primary": "Get started free",
+    "cta_secondary": "See how it works",
+    "headline": "Build habits that stick",
+    "no_credit_card": "No credit card needed",
+    "subheadline": "Track daily progress, maintain streaks, and unlock insights into your behavior patterns."
+  },
+  "howItWorks": {
+    "eyebrow": "Simple process",
+    "headline": "Three steps to consistency",
+    "subheadline": "Start tracking in seconds and watch your habits transform."
+  },
+  "palette": {
+    "bullet1": "Customize your experience",
+    "bullet2": "Match your style",
+    "bullet3": "Stay inspired daily",
+    "eyebrow": "Personalization",
+    "headline": "Make it yours",
+    "pick_color": "Choose a color",
+    "pick_icon": "Pick an icon",
+    "subheadline": "Select your favorite theme to keep tracking fun."
+  },
+  "testimonials": {
+    "eyebrow": "Trusted by",
+    "headline": "See what our users say"
+  }
+}

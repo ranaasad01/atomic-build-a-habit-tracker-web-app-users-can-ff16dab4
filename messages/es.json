@@ -1,0 +1,351 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "dashboard": "Panel de control",
+    "settings": "Configuración",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse"
+  },
+  "footer": {
+    "navigation": "Navegación",
+    "product": "Producto",
+    "free_forever": "Gratuito para siempre en funciones principales",
+    "no_credit_card": "No se requiere tarjeta de crédito",
+    "built_with_love": "Creado con cuidado para constructores de hábitos",
+    "copyright": "© 2024 Streakly. Todos los derechos reservados.",
+    "tagline": "Presenta. Cada día. Construye la vida que deseas."
+  },
+  "signup": {
+    "hero": {
+      "heading": "Crea hábitos que realmente funcionen.",
+      "body": "Únete a miles de personas que usan Streakly para presentarse a sí mismas cada día. Crea tu cuenta gratuita y comienza tu primera racha en menos de un minuto.",
+      "cta": "Comenzar gratis"
+    },
+    "form": {
+      "heading": "Crea tu cuenta",
+      "body": "No se requiere tarjeta de crédito. Gratuito para siempre en funciones principales.",
+      "cta": "Crear cuenta",
+      "confirmLabel": "Confirmar contraseña",
+      "confirmPlaceholder": "Vuelve a ingresar tu contraseña",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "hidePassword": "Ocultar",
+      "nameLabel": "Nombre completo",
+      "namePlaceholder": "Juan Pérez",
+      "passwordLabel": "Contraseña",
+      "passwordPlaceholder": "Crea una contraseña segura",
+      "passwordsMatch": "Las contraseñas no coinciden",
+      "showPassword": "Mostrar",
+      "submit": "Crear cuenta",
+      "submitting": "Creando cuenta…"
+    },
+    "login_link": {
+      "body": "¿Ya tienes una cuenta?",
+      "cta": "Inicia sesión en Streakly"
+    },
+    "badge": "Plan gratuito para siempre",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "errors": {
+      "emailInvalid": "Por favor, ingresa una dirección de correo válida.",
+      "generic": "Algo salió mal. Por favor, intenta de nuevo.",
+      "nameRequired": "El nombre es obligatorio.",
+      "passwordMismatch": "Las contraseñas no coinciden.",
+      "passwordShort": "La contraseña debe tener al menos 8 caracteres"
+    },
+    "formSubtitle": "Únete a miles de personas creando mejores hábitos",
+    "formTitle": "Comenzar",
+    "heading": "Crea hábitos que perduren",
+    "loginLink": "Inicia sesión",
+    "loginPrompt": "¿Ya tienes una cuenta?",
+    "nameLabel": "Nombre completo",
+    "namePlaceholder": "John Doe",
+    "passwordHint": "Usa mayúsculas, números y 8+ caracteres",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Crea una contraseña segura",
+    "strength": {
+      "fair": "Aceptable",
+      "length": "8+ caracteres",
+      "number": "Un número",
+      "strong": "Fuerte",
+      "uppercase": "Una letra mayúscula",
+      "weak": "Débil"
+    },
+    "subheading": "Registra tus hábitos diarios y observa tu transformación",
+    "submit": "Crear cuenta",
+    "submitting": "Creando cuenta…",
+    "success": {
+      "body": "¡Bienvenido! Revisa tu correo para verificar tu cuenta.",
+      "cta": "Ir al panel",
+      "title": "Cuenta creada"
+    },
+    "terms": {
+      "and": "Y",
+      "prefix": "Acepto los",
+      "privacy": "Política de privacidad",
+      "tos": "Términos de servicio"
+    },
+    "fields": [
+      {
+        "label": "Full name",
+        "placeholder": "e.g. Alex Rivera",
+        "type": "text"
+      },
+      {
+        "label": "Email address",
+        "placeholder": "you@example.com",
+        "type": "email"
+      },
+      {
+        "label": "Password",
+        "placeholder": "at least 8 characters",
+        "type": "password"
+      },
+      {
+        "label": "Confirm password",
+        "placeholder": "must match above",
+        "type": "password"
+      }
+    ]
+  },
+  "login": {
+    "hero": {
+      "heading": "Bienvenido de vuelta. Tu racha te espera.",
+      "body": "Inicia sesión para continuar donde lo dejaste. Cada día que te presentes cuenta."
+    },
+    "form": {
+      "heading": "Inicia sesión en Streakly",
+      "body": "Ingresa tu correo y contraseña para acceder a tu panel.",
+      "cta": "Iniciar sesión"
+    },
+    "signup_link": {
+      "heading": "¿Aún no tienes una cuenta?",
+      "body": "Únete a miles de personas creando mejores hábitos día a día.",
+      "cta": "Crear una cuenta gratuita"
+    },
+    "emailLabel": "Correo",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "errorGeneric": "Algo salió mal. Por favor, intenta de nuevo.",
+    "featureGoals": "Establece y registra objetivos",
+    "featureInsights": "Obtén información personalizada",
+    "featureStreak": "Construye rachas ganadoras",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "heading": "Bienvenido de vuelta",
+    "hidePassword": "Ocultar contraseña",
+    "noAccount": "¿No tienes cuenta?",
+    "orDivider": "o",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "••••••••",
+    "showPassword": "Mostrar contraseña",
+    "signUpLink": "Registrarse",
+    "signingIn": "Iniciando sesión…",
+    "subheading": "Inicia sesión para continuar rastreando tus hábitos.",
+    "submitButton": "Iniciar sesión",
+    "fields": [
+      {
+        "label": "Email address",
+        "placeholder": "the one you signed up with",
+        "type": "email"
+      },
+      {
+        "label": "Password",
+        "placeholder": "at least 8 characters",
+        "type": "password"
+      }
+    ]
+  },
+  "dashboard": {
+    "header": {
+      "heading": "Buenos días, {name} 👋",
+      "body": "Tienes hábitos en tu lista — hagamos que sea un gran día."
+    },
+    "stats": {
+      "heading": "Tu progreso de un vistazo",
+      "body": "Así es como estás rastreando todos tus hábitos. Mantén la consistencia — las rachas crecen más rápido de lo que crees."
+    },
+    "checklist": {
+      "heading": "Hábitos de hoy",
+      "body": "Marca cada hábito conforme lo completes. Tu racha se actualiza automáticamente — no rompas la cadena."
+    },
+    "add_habit": {
+      "heading": "¿Listo para construir un nuevo hábito?",
+      "body": "Los pequeños hábitos, realizados consistentemente, llevan a resultados extraordinarios. Añade un nuevo hábito y comienza tu racha hoy.",
+      "cta": "Añadir un nuevo hábito"
+    },
+    "header_items": [
+      {
+        "label": "Wednesday, 14 August 2024"
+      },
+      {
+        "label": "6 habits scheduled for today"
+      },
+      {
+        "label": "3 completed so far — keep going!"
+      }
+    ],
+    "stats_items": [
+      {
+        "label": "Today's completion rate",
+        "detail": "3 of 6 habits done"
+      },
+      {
+        "label": "Current streak",
+        "detail": "days in a row"
+      },
+      {
+        "label": "Longest streak",
+        "detail": "personal best"
+      },
+      {
+        "label": "All-time completion rate",
+        "detail": "across the last 30 days"
+      }
+    ],
+    "habits": [
+      {
+        "icon": "🏃",
+        "name": "Morning run",
+        "description": "20 minutes outside",
+        "completed": true
+      },
+      {
+        "icon": "💧",
+        "name": "Drink 8 glasses of water",
+        "description": "stay hydrated throughout the day",
+        "completed": true
+      },
+      {
+        "icon": "📖",
+        "name": "Read for 30 minutes",
+        "description": "non-fiction or fiction, your choice",
+        "completed": true
+      },
+      {
+        "icon": "🧘",
+        "name": "Meditate",
+        "description": "10-minute mindfulness session",
+        "completed": false
+      },
+      {
+        "icon": "✍️",
+        "name": "Journal",
+        "description": "write 3 things you're grateful for",
+        "completed": false
+      },
+      {
+        "icon": "🥗",
+        "name": "Eat a healthy dinner",
+        "description": "cook at home, skip the takeout",
+        "completed": false
+      }
+    ]
+  },
+  "settings": {
+    "title": "Configuración",
+    "profile": {
+      "heading": "Tu Perfil",
+      "body": "Actualiza tu nombre de usuario y gestiona los detalles de tu cuenta.",
+      "name_label": "Nombre de usuario",
+      "name_placeholder": "Tu nombre",
+      "email_label": "Correo electrónico",
+      "save_cta": "Guardar cambios"
+    },
+    "preferences": {
+      "heading": "Preferencias",
+      "body": "Personaliza cómo funciona Streakly para ti.",
+      "timezone_label": "Zona horaria",
+      "timezone_help": "Se utiliza para determinar cuándo se reinicia tu día y se calculan las rachas."
+    },
+    "danger": {
+      "heading": "Zona de Peligro",
+      "body": "Elimina permanentemente tu cuenta y todos tus datos de hábitos. Esta acción no se puede deshacer.",
+      "cta": "Eliminar mi cuenta",
+      "confirm_title": "¿Eliminar tu cuenta?",
+      "confirm_body": "Esto eliminará permanentemente todos tus hábitos, rachas e historial. No hay forma de recuperar estos datos."
+    }
+  },
+  "habits": {
+    "detail": {
+      "back": "Volver al Panel",
+      "stats_heading": "Estadísticas del Hábito",
+      "current_streak": "Racha Actual",
+      "longest_streak": "Racha Más Larga",
+      "completion_rate": "Tasa de Cumplimiento",
+      "history_heading": "Historial de Cumplimiento",
+      "history_body": "Cada punto es un día que te presentaste. Sigue llenando el calendario.",
+      "edit_cta": "Editar hábito",
+      "delete_cta": "Eliminar hábito",
+      "confirm_delete_title": "¿Eliminar este hábito?",
+      "confirm_delete_body": "Todo el historial de cumplimiento y datos de racha para este hábito se eliminarán permanentemente.",
+      "days_label": "días",
+      "days_best": "récord personal"
+    },
+    "form": {
+      "create_heading": "Crear un nuevo hábito",
+      "edit_heading": "Editar hábito",
+      "name_label": "Nombre del hábito",
+      "name_placeholder": "p. ej. Carrera matutina, Leer 30 minutos",
+      "description_label": "Descripción (opcional)",
+      "description_placeholder": "¿En qué consiste este hábito?",
+      "icon_label": "Icono (emoji)",
+      "icon_placeholder": "🏃",
+      "color_label": "Color",
+      "save_cta": "Guardar hábito",
+      "cancel_cta": "Cancelar"
+    }
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal. Por favor, intenta de nuevo.",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "confirm": "Confirmar",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "streak_days": "racha de días",
+    "completed": "Completado",
+    "not_done": "Aún no hecho",
+    "sign_out": "Cerrar sesión"
+  },
+  "cta": {
+    "badge": "Tiempo limitado",
+    "button": "Comenzar prueba gratuita",
+    "footnote": "No se requiere tarjeta de crédito. Cancela en cualquier momento.",
+    "headline": "¿Listo para construir mejores hábitos?",
+    "subheadline": "Únete a miles que construyen consistencia, un día a la vez."
+  },
+  "features": {
+    "eyebrow": "Por qué HabitTracker",
+    "headline": "Todo lo que necesitas para triunfar",
+    "subheadline": "Herramientas poderosas diseñadas para mantenerte responsable y motivado."
+  },
+  "hero": {
+    "badge": "Nuevo",
+    "cta_primary": "Comenzar gratis",
+    "cta_secondary": "Ver cómo funciona",
+    "headline": "Construye hábitos que perduren",
+    "no_credit_card": "No se requiere tarjeta de crédito",
+    "subheadline": "Registra tu progreso diario, mantén tus rachas y descubre patrones en tu comportamiento."
+  },
+  "howItWorks": {
+    "eyebrow": "Proceso simple",
+    "headline": "Tres pasos hacia la consistencia",
+    "subheadline": "Comienza a registrar en segundos y observa cómo se transforman tus hábitos."
+  },
+  "palette": {
+    "bullet1": "Personaliza tu experiencia",
+    "bullet2": "Adapta tu estilo",
+    "bullet3": "Mantente inspirado cada día",
+    "eyebrow": "Personalización",
+    "headline": "Hazlo tuyo",
+    "pick_color": "Elige un color",
+    "pick_icon": "Selecciona un icono",
+    "subheadline": "Elige tu tema favorito para que el seguimiento sea divertido."
+  },
+  "testimonials": {
+    "eyebrow": "Confiado por",
+    "headline": "Mira qué dicen nuestros usuarios"
+  }
+}
